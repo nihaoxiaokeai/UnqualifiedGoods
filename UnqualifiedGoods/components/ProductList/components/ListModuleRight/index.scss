@@ -1,0 +1,80 @@
+.wrap {
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 0px 6px 6px 0px;
+  padding: 6px 0 6px 0px;
+  margin-right: 10px;
+  .title {
+    min-height: 30px;
+    width: 100%;
+    .tr {
+      min-height: 30px;
+      line-height: 30px;
+      font-size: 12px;
+      color: 323232;
+      width: 100%;
+      display: inline-block;
+      word-wrap: break-word;
+      word-break: normal;
+      border-bottom: 1px solid #f4f4f4;
+      .td3 {
+        width: 60px;
+        display: inline-block;
+      }
+      .td4 {
+        width: 90px;
+        display: inline-block;
+      }
+      .td5 {
+        width: 90px;
+        display: inline-block;
+      }
+      .td6 {
+        width: 90px;
+        display: inline-block;
+      }
+    }
+  }
+  .content {
+    .borderBottom:not(:last-child) {
+      border-bottom: 1px solid #f4f4f4;
+    }
+    .tr {
+      height: 60px;
+
+      font-size: 12px;
+      color: #323232;
+      width: 100%;
+      display: inline-block;
+      word-wrap: break-word;
+      word-break: normal;
+      vertical-align: middle;
+      .td3 {
+        width: 60px;
+        display: inline-block;
+      }
+      .td4 {
+        width: 90px;
+        display: inline-block;
+      }
+      .td5 {
+        width: 90px;
+        display: inline-block;
+        .font {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2; //控制行数
+          overflow: hidden;
+        }
+      }
+      .td6 {
+        width: 90px;
+        line-height: 60px;
+        display: inline-block;
+      }
+    }
+  }
+}
+.flexd {
+  position: absolute;
+}
